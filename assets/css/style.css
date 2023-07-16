@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: #a8a6a6;
+}
+body{
+    background-color:#000000;
+    margin-top: 50px;
+}
+
+.cont{
+    box-shadow: 0px 0px 20px #0f94e7;
+    border-top-left-radius: 50px;
+    margin: auto;
+    background-color: rgb(26, 25, 25);
+    height: 750px;
+    width: 500px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+img{
+    margin-left: 220px;
+    height: 50px;
+    width: 50px;
+}
+.title-form{
+    text-align: center;
+    color: #cdcccc;
+    margin-bottom: 20px;
+    padding:10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+form input.text{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 450px;
+    border: 1px solid #242323;
+    border-radius: 4px;
+    background-color: #242323;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0px 0px 10px #7c18e7;
+}
+
+textarea:focus{
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0px 0px 10px #7c18e7;
+
+}
+
+
+.msg{
+    border-radius: 4px;
+    background-color: #242323;
+    border: 1px solid #242323;
+    width:450px;
+    height: 194px;
+    resize: none;
+    margin-bottom: 10px;
+
+}
+
+form input.radio{
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 30px;
+}
+
+form input#check{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left:30px;
+}
+
+button{
+
+    color: #b7b7b7;
+    font-size:17px;
+    border: none;
+    border-radius:5px;
+    padding: 10px;
+    width: 450px;
+    background-color: #000000c1;
+}
+
+button:hover{
+    
+    box-shadow: 0px 0px 10px #04a9db;
+}
+
+input:hover{
+    box-shadow: 0px 0px 10px #04a9db;
+
+}
+textarea:hover{
+    box-shadow: 0px 0px 10px #04a9db;  
+}
+
+@media(max-width:450px){
+    .cont{
+        box-shadow: 0px 0px 20px #0f94e7;
+        border-top-left-radius: 50px;
+        margin: auto;
+        background-color: rgb(26, 25, 25);
+        height: 720px;
+        width: 300px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    
+    }
+
+    img{
+        margin-left: 10px;
+        height: 30px;
+        width: 30px;
+    }
+
+    form input.text{
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 250px;
+        border: 1px solid #242323;
+        border-radius: 4px;
+        background-color: #242323;
+    }
+
+    .msg{
+        border-radius: 4px;
+        background-color: #242323;
+        border: 1px solid #242323;
+        width:250px;
+        height: 194px;
+        resize: none;
+        margin-bottom: 10px;
+    
+    }
+    
+    button{
+
+        color: #b7b7b7;
+        font-size:17px;
+        border: none;
+        border-radius:5px;
+        padding: 10px;
+        width: 250px;
+        background-color: #000000c1;
+    }
+
+    form input.radio{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        }
+        
+        form input#check{
+            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-left:3px;
+        }
+
+        .title-form{
+            display: flex;
+            text-align: center;
+            color: #cdcccc;
+            padding-left: 20px;
+            padding-top: 10px;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+
+}
